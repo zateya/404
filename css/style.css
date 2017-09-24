@@ -11,13 +11,18 @@ html {
 body {
   margin: 0;
   padding: 0;
-  min-width: 500px;
+  min-width: 320px;
   font-family: Muli, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 800;
   background-color: #eaeaea;
   color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -43,7 +48,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -53,8 +58,10 @@ body {
 }
 
 .message {
-  padding: 34px 63px 46px;
-  width: 500px;
+  padding: 34px 55px 46px;
+  display: block;
+  width: 100%;
+  max-width: 500px;
   background-color: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 0px 4px 3.84px 0.16px rgba(5, 3, 5, 0.2);
@@ -78,14 +85,15 @@ body {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 374px;
-  height: 230px;
+  width: 95.8974358974%;
+  padding-bottom: 28px;
 }
 
 .mouse__hero {
   position: relative;
   display: block;
-  margin-left: 74px;
+  margin-left: 19.7860962567%;
+  width: 68.449197861%;
   z-index: 1;
   -webkit-animation-name: mouseshake;
           animation-name: mouseshake;
@@ -139,16 +147,16 @@ body {
   display: block;
   left: 0;
   bottom: 0;
-  width: 355px;
-  height: 50px;
+  width: 94.9197860963%;
+  height: auto;
 }
 
 .mouse__shadow {
   position: absolute;
   display: block;
   bottom: 20px;
-  left: 116px;
-  width: 141px;
+  left: 31.0160427807%;
+  width: 37.7005347594%;
   height: 20px;
   background-color: #d6dfde;
   z-index: 0;
